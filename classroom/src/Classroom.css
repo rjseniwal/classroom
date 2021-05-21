@@ -1,0 +1,60 @@
+.classroom-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.classroom-badge {
+	margin: 10px;
+	padding: 10px;
+	flex: 0.2;
+	min-height: 150px;
+	background-color: gray;
+	border-radius: 20px;
+	color: white;
+	padding-left: 30px;
+}
+
+.classroom-badge-buttons > button {
+	margin-left: 0px;
+	border-radius: 10px;
+}
+
+.classroom-badge-buttons {
+	display: flex;
+}
+
+.classroom-badge > h1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.classroom-badge > h2 {
+	margin-top: 0px;
+}
+
+.classroom-details {
+	min-height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.chat-box {
+	padding: 10px;
+	flex: 0.3;
+}
+.classroom-options {
+	padding: 10px;
+	flex: 0.7;
+}
+
+.classroom-options-buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
+.classroom-options-buttons > button {
+	padding: 10px;
+	border: none;
+	border-right: 1px solid gray;
+	width: 100%;
+}

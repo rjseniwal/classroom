@@ -1,0 +1,32 @@
+.classbox-container {
+	margin: 10px;
+	border: 1px solid gray;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.classbox-body {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.classbox-body-left {
+	flex: 0.7 1;
+	margin: 10px;
+	margin-right: 0px;
+}
+
+.classbox-body-right {
+	flex: 0.3 1;
+	border-left: 1px solid gray;
+	/* background-color: brown; */
+	text-align: center;
+	align-content: center;
+	background-color: rgb(35, 124, 207);
+}
+
+.classbox-body-right > .MuiSvgIcon-root {
+	padding-top: 20px;
+	color: white;
+}
